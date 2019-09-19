@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.boshuo.dao.person.BstPersonBasicDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.boshuo.entity.pojo.BstPersonBasicEntity" id="bstPersonBasicMap">
+        <result property="mid" column="MID"/>
+        <result property="perid" column="Perid"/>
+        <result property="username" column="Username"/>
+        <result property="realname" column="Realname"/>
+        <result property="enrealname" column="enRealname"/>
+        <result property="sex" column="Sex"/>
+        <result property="marriage" column="Marriage"/>
+        <result property="birthdate" column="BirthDate"/>
+        <result property="stature" column="Stature"/>
+        <result property="nation" column="Nation"/>
+        <result property="polity" column="Polity"/>
+        <result property="country" column="Country"/>
+        <result property="encountry" column="enCountry"/>
+        <result property="workplacearea" column="WorkPlaceArea"/>
+        <result property="workplacecity" column="WorkPlaceCity"/>
+        <result property="workplacename" column="WorkPlaceName"/>
+        <result property="homeplacearea" column="HomePlaceArea"/>
+        <result property="homeplacecity" column="HomePlaceCity"/>
+        <result property="homeplacename" column="HomePlaceName"/>
+        <result property="degree" column="Degree"/>
+        <result property="advance" column="Advance"/>
+        <result property="graduate" column="Graduate"/>
+        <result property="idtype" column="IDType"/>
+        <result property="idcode" column="IDCode"/>
+        <result property="contact1" column="Contact1"/>
+        <result property="contact2" column="Contact2"/>
+        <result property="contact3" column="Contact3"/>
+        <result property="mobile" column="Mobile"/>
+        <result property="phone" column="Phone"/>
+        <result property="qq" column="QQ"/>
+        <result property="postcode" column="PostCode"/>
+        <result property="address" column="Address"/>
+        <result property="enaddress" column="enAddress"/>
+        <result property="homepage" column="HomePage"/>
+        <result property="photoflag" column="PhotoFlag"/>
+        <result property="photourl" column="PhotoUrl"/>
+        <result property="photokeep" column="PhotoKeep"/>
+        <result property="videoflag" column="VideoFlag"/>
+        <result property="videostate" column="VideoState"/>
+        <result property="videourl" column="VideoUrl"/>
+        <result property="videophotourl" column="VideoPhotoUrl"/>
+        <result property="videodate" column="VideoDate"/>
+        <result property="videodays" column="VideoDays"/>
+        <result property="showmeflag" column="ShowmeFlag"/>
+        <result property="showmeid" column="ShowmeId"/>
+        <result property="showmeads" column="ShowmeAds"/>
+        <result property="showmedate" column="ShowmeDate"/>
+        <result property="showmeenddate" column="ShowmeEndDate"/>
+        <result property="bankflag" column="BankFlag"/>
+        <result property="bankname" column="BankName"/>
+        <result property="bankid" column="BankId"/>
+        <result property="specialty" column="Specialty"/>
+        <result property="specialtyname" column="SpecialtyName"/>
+        <result property="schoolname" column="SchoolName"/>
+    </resultMap>
+
+
+</mapper>

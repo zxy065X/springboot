@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.boshuo.dao.item.BstPersonItemDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.boshuo.entity.pojo.BstPersonItemEntity" id="bstPersonItemMap">
+        <result property="mid" column="MID"/>
+        <result property="perid" column="Perid"/>
+        <result property="username" column="Username"/>
+        <result property="resid" column="Resid"/>
+        <result property="beginyear" column="BeginYear"/>
+        <result property="beginmonth" column="BeginMonth"/>
+        <result property="endyear" column="EndYear"/>
+        <result property="endmonth" column="EndMonth"/>
+        <result property="itemname" column="ItemName"/>
+        <result property="software" column="Software"/>
+        <result property="hardware" column="Hardware"/>
+        <result property="toolname" column="ToolName"/>
+        <result property="itemdesc" column="ItemDesc"/>
+        <result property="burdendesc" column="BurdenDesc"/>
+        <result property="lang" column="Lang"/>
+        <result property="state" column="State"/>
+    </resultMap>
+
+
+</mapper>

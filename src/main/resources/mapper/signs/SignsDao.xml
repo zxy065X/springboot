@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.boshuo.dao.signs.SignsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.boshuo.entity.pojo.SignsEntity" id="signsMap">
+        <result property="id" column="_id"/>
+        <result property="openid" column="openid"/>
+        <result property="newid" column="newid"/>
+        <result property="time" column="time"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.boshuo.dao.qz.QzGzjlDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.boshuo.entity.pojo.QzGzjlEntity" id="qzGzjlMap">
+        <result property="id" column="id"/>
+        <result property="userid" column="userid"/>
+        <result property="company" column="company"/>
+        <result property="job" column="job"/>
+        <result property="description" column="description"/>
+        <result property="begin" column="begin"/>
+        <result property="end" column="end"/>
+        <result property="deleteflag" column="deleteflag"/>
+    </resultMap>
+
+
+</mapper>

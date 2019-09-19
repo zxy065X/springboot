@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.runfkj.dao.suggests.SuggestsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.runfkj.entity.pojo.SuggestsEntity" id="suggestsMap">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="offerjob" column="offerjob"/>
+        <result property="status" column="status"/>
+        <result property="date" column="date"/>
+        <result property="time" column="time"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>测试界面</title>
+</head>
+<body>
+<span id="dianwo"  th:text="${msg}">sdafrse</span>
+<span id="dianwo1" th:text="${msg}">${msg}</span>
+<span id="dianwo2" th:text="${msg}">${msg}</span>
+<span id="dianwo3" th:text="${msg}">${msg}</span>
+<span id="dianwo4" th:text="${msg}">${msg}</span>
+<span id="dianwo5" th:text="${msg}">${msg}</span>
+<span id="dianwo6" th:text="${msg}">${msg}</span>
+
+<script  src="/js/jquery.js"></script>
+<script>
+$("#dianwo").click(function(){
+	 $.ajax({
+         type: "POST",
+         url: '/user/list',
+         data:JSON.stringify({
+             status: -2
+             
+         }),
+         headers: {
+        	 'Accept' : 'application/json',
+        	 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+        	 },
+         processData: false,
+         beforeSend: function (xhr) {
+             xhr.setRequestHeader("User-Token", "fsdfsedfsd1541s45tg4s65g4s65g41");
+         },
+         success: function (data) {
+            
+         }
+     });
+});
+</script>
+</body>
+
+</html>

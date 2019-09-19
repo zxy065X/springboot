@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.runfkj.dao.companynews.CompanynewsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.runfkj.entity.pojo.CompanynewsEntity" id="companynewsMap">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="introduction" column="introduction"/>
+        <result property="address" column="address"/>
+        <result property="scope" column="scope"/>
+        <result property="status" column="status"/>
+        <result property="subtitle" column="subtitle"/>
+        <result property="starttime" column="starttime"/>
+        <result property="endtime" column="endtime"/>
+        <result property="kind" column="kind"/>
+        <result property="createtime" column="createtime"/>
+        <result property="updatetime" column="updatetime"/>
+        <result property="deleteflag" column="deleteflag"/>
+    </resultMap>
+
+
+</mapper>

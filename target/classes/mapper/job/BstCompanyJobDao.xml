@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.runfkj.dao.job.BstCompanyJobDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.runfkj.entity.pojo.BstCompanyJobEntity" id="bstCompanyJobMap">
+        <result property="jobid" column="Jobid"/>
+        <result property="comid" column="Comid"/>
+        <result property="username" column="Username"/>
+        <result property="jobname" column="JobName"/>
+        <result property="jobproperty" column="JobProperty"/>
+        <result property="jobno" column="JobNo"/>
+        <result property="department" column="Department"/>
+        <result property="mans" column="Mans"/>
+        <result property="validitydays" column="ValidityDays"/>
+        <result property="jobtype" column="JobType"/>
+        <result property="workplace" column="WorkPlace"/>
+        <result property="jobtypename" column="JobTypeName"/>
+        <result property="workplacename" column="WorkPlaceName"/>
+        <result property="specialty" column="Specialty"/>
+        <result property="specialtyname" column="SpecialtyName"/>
+        <result property="jobtag" column="JobTag"/>
+        <result property="jobdesc" column="JobDesc"/>
+        <result property="monthpay" column="MonthPay"/>
+        <result property="astalk" column="AsTalk"/>
+        <result property="otherpay" column="OtherPay"/>
+        <result property="resumelang" column="ResumeLang"/>
+        <result property="degree" column="Degree"/>
+        <result property="advance" column="Advance"/>
+        <result property="workyears" column="WorkYears"/>
+        <result property="sex" column="Sex"/>
+        <result property="minage" column="MinAge"/>
+        <result property="maxage" column="MaxAge"/>
+        <result property="languagesign" column="LanguageSign"/>
+        <result property="languagelevel" column="LanguageLevel"/>
+        <result property="linkman" column="Linkman"/>
+        <result property="phone" column="Phone"/>
+        <result property="phonekeep" column="PhoneKeep"/>
+        <result property="fax" column="Fax"/>
+        <result property="email" column="Email"/>
+        <result property="emailkeep" column="EmailKeep"/>
+        <result property="testaddress" column="TestAddress"/>
+        <result property="postcode" column="PostCode"/>
+        <result property="address" column="Address"/>
+        <result property="acceptmail" column="AcceptMail"/>
+        <result property="autoreply" column="AutoReply"/>
+        <result property="visitnum" column="VisitNum"/>
+        <result property="sendnum" column="SendNum"/>
+        <result property="jobflag" column="JobFlag"/>
+        <result property="bestflag" column="BestFlag"/>
+        <result property="hotflag" column="HotFlag"/>
+        <result property="topflag" column="TopFlag"/>
+        <result property="topdate" column="TopDate"/>
+        <result property="topdays" column="TopDays"/>
+        <result property="createdate" column="CreateDate"/>
+        <result property="updatedate" column="UpdateDate"/>
+        <result property="sourceweb" column="SourceWeb"/>
+        <result property="sourcejobid" column="SourceJobid"/>
+    </resultMap>
+
+
+</mapper>

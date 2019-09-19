@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.boshuo.dao.person.BstPersonAccountDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.boshuo.entity.pojo.BstPersonAccountEntity" id="bstPersonAccountMap">
+        <result property="perid" column="Perid"/>
+        <result property="username" column="Username"/>
+        <result property="password" column="Password"/>
+        <result property="passwords" column="Passwords"/>
+        <result property="email" column="Email"/>
+        <result property="acceptmail" column="AcceptMail"/>
+        <result property="regdate" column="RegDate"/>
+        <result property="logindate" column="LoginDate"/>
+        <result property="loginnum" column="LoginNum"/>
+        <result property="clientip" column="ClientIp"/>
+        <result property="resumenum" column="ResumeNum"/>
+        <result property="resumeupdatedate" column="ResumeUpdateDate"/>
+        <result property="letternum" column="LetterNum"/>
+        <result property="searchernum" column="SearcherNum"/>
+        <result property="flag" column="Flag"/>
+        <result property="topflag" column="TopFlag"/>
+        <result property="bestflag" column="BestFlag"/>
+        <result property="topenddate" column="TopEndDate"/>
+        <result property="bestenddate" column="BestEndDate"/>
+        <result property="advflag" column="AdvFlag"/>
+        <result property="moneys" column="Moneys"/>
+        <result property="drawmoneys" column="drawMoneys"/>
+        <result property="outsendtotal" column="OutsendTotal"/>
+        <result property="outsendnum" column="OutsendNum"/>
+        <result property="friendtotal" column="FriendTotal"/>
+        <result property="friendnum" column="FriendNum"/>
+        <result property="applyjobtotal" column="ApplyjobTotal"/>
+        <result property="applyjobnum" column="ApplyjobNum"/>
+        <result property="maildate" column="MailDate"/>
+        <result property="atttotal" column="AttTotal"/>
+        <result property="attnum" column="AttNum"/>
+        <result property="authidcard" column="authIdcard"/>
+        <result property="authemail" column="authEmail"/>
+        <result property="authmobile" column="authMobile"/>
+        <result property="integral" column="Integral"/>
+        <result property="integralover" column="IntegralOver"/>
+        <result property="integralappjob" column="IntegralAppJob"/>
+        <result property="regfrom" column="RegFrom"/>
+        <result property="subid" column="Subid"/>
+        <result property="qqopenid" column="qqOpenid"/>
+        <result property="wxopenid" column="wxOpenid"/>
+        <result property="wxuserid" column="wxUserid"/>
+        <result property="pass" column="Pass"/>
+    </resultMap>
+
+
+</mapper>
